@@ -1,0 +1,161 @@
+#container-temp {
+    background: linear-gradient(to top right,#fb3f3f, #6c98ff) !important;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    padding: 5rem;
+    font-size: 1.3rem;
+    text-align: justify;
+}
+
+#resultados {
+    background: linear-gradient(to top left,#fb3f3f, #6c98ff) !important;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    padding: 3rem;
+}
+
+
+
+
+label {
+  background-color: rgb(254, 130, 63);
+  padding: 9px;
+  border-radius: 20px;
+  color: white;
+}
+
+input {
+  border-radius: 2px;
+  background-color: rgb(255, 153, 97);
+}
+
+
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+/* // mediaqueries accesibles (me costo hacerlo responsive) */
+@media (max-width: 400px) {
+  input {
+    display: block;
+    width: 17.8rem;
+    margin-bottom: 20px;
+  }
+  label {
+    display: block;
+    width: 17.8rem;
+    margin-bottom: 20px;
+    
+  }
+}
+
+
+@media (min-width: 401px) and (max-width: 450px) {
+  input {
+    display: block;
+    width: 20rem;
+    margin-bottom: 20px;
+  }
+  label {
+    display: block;
+    width: 20rem;
+    margin-bottom: 20px;
+    
+  }
+
+}
+
+@media (min-width: 451px) and (max-width: 500px) { 
+  input {
+    display: block;
+    width: 24rem;
+    margin-bottom: 20px;
+  }
+  label {
+    display: block;
+    width: 24rem;
+    margin-bottom: 20px;
+    
+  }
+
+
+}
+
+
+@media (min-width: 501px) and (max-width: 650px) { 
+  input {
+    display: block;
+    width: 27rem;
+    margin-bottom: 20px;
+  }
+  label {
+    display: block;
+    width: 27rem;
+    margin-bottom: 20px;
+    
+  }
+
+}
+
+
+@media (min-width: 651px) and (max-width: 770px) {  
+  input {
+    display: block;
+    width: 27rem;
+    margin-bottom: 20px;
+  }
+  label {
+    display: block;
+    width: 27rem;
+    margin-bottom: 20px;
+    
+  }
+
+}
+@media (min-width: 771px) and (max-width: 850px) {
+  input {
+    display: block;
+    width: 40rem;
+    margin-bottom: 20px;
+  }
+  label {
+    display: block;
+    width: 40rem;
+    margin-bottom: 20px;
+    
+  }
+
+}
+@media (min-width: 851px) and (max-width: 990px) {
+  input {
+    display: block;
+    width: 40rem;
+    margin-bottom: 20px;
+  }
+  label {
+    display: block;
+    width: 40rem;
+    margin-bottom: 20px;
+    
+  }
+
+}
+@media (min-width: 1200px) {
+  input {
+    display: inline;
+  }
+  label {
+    display: inline;
+    margin: 10px;
+    
+  }
+
+}
+
